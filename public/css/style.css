@@ -1013,6 +1013,10 @@ nav a:hover {
 /*--------------------------------------*/
 /*--------------------------------------*/
 
+.container-cvImportant {
+    margin-bottom: 0.5%;
+}
+
 .title-cvImportant {
     text-align: center;
     font-size: 3.5em;
@@ -1075,6 +1079,11 @@ nav a:hover {
 
 .text-lettre {
     margin: 0 10% 0 10%;
+}
+
+.text-lettre img {
+    height: 1.2em;
+    width: auto;
 }
 
 .text-lettre h2 {
@@ -1141,6 +1150,103 @@ nav a:hover {
     }
 
     .text-lettre h2 {
+        margin-top: 5%;
+    }
+}
+
+/*--------------------------------------*/
+/*--------------------------------------*/
+/*-------Page lettreImporatant----------*/
+/*--------------------------------------*/
+/*--------------------------------------*/
+
+.title-page-lettreImporatant {
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    font-size: 3.2em;
+    margin-top: 80px;
+    text-shadow: hsl(0, 0%, 40%) 2px 0 10px;
+}
+
+.container-lettreImporatant {
+    display: flex;
+    align-items: center;
+    font-size: larger;
+    margin: 2% 8% 5% 8%;
+}
+
+.img-lettreImporatant img {
+    height: 22em;
+    margin-left: 30px;
+    width: auto;
+}
+
+.text-lettreImporatant {
+    margin: 0 10% 0 10%;
+    font-weight: 500;
+}
+
+.text-lettreImporatant p {
+
+    margin: 30px 0 10px 20px;
+}
+
+.line-lettreImporatant img {
+    height: 2em;
+    width: auto;
+}
+
+.line-lettreImporatant {
+    display: flex;
+    align-items: last baseline;
+
+}
+
+.btn-price-lettreImporatant {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.btn-price-lettreImporatant button {
+    margin-bottom: 3%;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 20px 40px 20px 40px;
+    font-weight: 600;
+    font-size: 2em;
+    border-radius: 40px;
+    text-shadow: hsl(0, 0%, 10%) 2px 0 10px;
+    transition: 0.4s;
+    background: linear-gradient(to right, #ff5757, #8c52ff);
+}
+
+.btn-price-lettreImporatant button:hover {
+    scale: 1.1;
+}
+
+@media screen and (max-width: 1200px) {
+    .img-lettreImporatant {
+        display: none;
+    }
+
+    .text-lettreImporatant {
+        width: 70%;
+        margin: auto;
+    }
+
+    .text-lettreImporatant p {
+
+        font-size: larger;
+        margin-top: 30px;
+    }
+
+    .btn-price-lettreImporatant button {
+        margin-top: 3%;
+    }
+
+    .text-lettreImporatant h2 {
         margin-top: 5%;
     }
 }

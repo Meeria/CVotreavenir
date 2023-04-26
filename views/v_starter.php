@@ -52,11 +52,6 @@ include("inc/header.php");
         <p class="text-cv">CVotreavenir vous évitera de commettre des <span class="pink-words">erreurs</span> et des <span class="pink-words">oublis</span>. Nos équipes sauront rédiger avec exigence <span class="pink-words">votre parcours</span> et faire ressortir <span class="pink-words">vos compétences</span> grâce à des méthodes de rédaction et des modèles de CV d’actualité. </p>
     </div>
 </div>
-<br>
-<br>
-<br>
-<br>
-<br>
 
 
 
