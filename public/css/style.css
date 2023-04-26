@@ -1045,3 +1045,102 @@ nav a:hover {
 .line-cv .check {
     font-size: 2.5em;
 }
+
+/*--------------------------------------*/
+/*--------------------------------------*/
+/*--------Page LettreMotivation---------*/
+/*--------------------------------------*/
+/*--------------------------------------*/
+
+.title-page-lettre {
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    font-size: 4em;
+    margin-top: 70px;
+    text-shadow: hsl(0, 0%, 40%) 2px 0 10px;
+}
+
+.container-lettre {
+    display: flex;
+    align-items: center;
+    font-size: larger;
+    margin: 2% 8% 0% 8%;
+}
+
+.img-lettre img {
+    height: 22em;
+    width: auto;
+}
+
+.text-lettre {
+    margin: 0 10% 0 10%;
+}
+
+.text-lettre h2 {
+    text-align: center;
+}
+
+.text-lettre p {
+    font-weight: 500;
+    margin: 30px 0 0 20px;
+}
+
+.line-lettre img {
+    height: 2em;
+    width: auto;
+}
+
+.line-lettre {
+    display: flex;
+    align-items: last baseline;
+
+}
+
+.btn-price-lettre {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.btn-price-lettre button {
+    margin-bottom: 3%;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 20px 40px 20px 40px;
+    font-weight: 600;
+    font-size: 2em;
+    border-radius: 40px;
+    text-shadow: hsl(0, 0%, 10%) 2px 0 10px;
+    transition: 0.4s;
+    background: linear-gradient(to right, #ff5757, #8c52ff);
+}
+
+.btn-price-lettre button:hover {
+    scale: 1.1;
+}
+
+@media screen and (max-width: 1200px) {
+    .img-lettre {
+        display: none;
+    }
+
+    .text-lettre {
+        width: 70%;
+        margin: auto;
+    }
+
+    .text-lettre p {
+
+        font-size: larger;
+        margin-top: 30px;
+    }
+
+    .btn-price-lettre button {
+        margin-top: 3%;
+    }
+
+    .text-lettre h2 {
+        margin-top: 5%;
+    }
+}
