@@ -1056,7 +1056,7 @@ nav a:hover {
     text-align: center;
     width: 50%;
     margin: auto;
-    font-size: 4em;
+    font-size: 3.7em;
     margin-top: 70px;
     text-shadow: hsl(0, 0%, 40%) 2px 0 10px;
 }
@@ -1065,7 +1065,7 @@ nav a:hover {
     display: flex;
     align-items: center;
     font-size: larger;
-    margin: 2% 8% 0% 8%;
+    margin: 1% 8% 0% 8%;
 }
 
 .img-lettre img {

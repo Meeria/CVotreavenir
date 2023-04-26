@@ -9,19 +9,19 @@ include("inc/header.php");
     <h2>Rédaction sous les <span class="key-words">24h</span> garantie !</h2>
         <div class="line-lettre">
             <img src="../public/illustrations_site/yellow-check.png" alt="">
-            <p>Nous vous envoyons un questionnaire à remplir pour recueillir les informations nécessaires à la rédaction de votre lettre.</p>
+            <p>Nous vous envoyons un <span class="key-words">questionnaire</span> à remplir pour recueillir les informations nécessaires à la rédaction de votre lettre.</p>
         </div>
         <div class="line-lettre">
             <img src="../public/illustrations_site/yellow-check.png" alt="">
-            <p>Rédaction personnalisée et adaptée au poste et à l’entreprise que vous visez. </p>
+            <p>Rédaction <span class="key-words">personnalisée</span> et <span class="key-words">adaptée</span> au poste et à l’entreprise que vous visez. </p>
         </div>
         <div class="line-lettre">
             <img src="../public/illustrations_site/yellow-check.png" alt="">
-            <p>Nous tenons compte de votre profil, de vos compétences, de vos motivations et de vos objectifs professionnels.</p>
+            <p>Nous tenons compte de <span class="key-words">votre profil</span>, de <span class="key-words">vos compétences</span>, de <span class="key-words">vos motivations</span> et de <span class="key-words">vos objectifs professionnels</span>.</p>
         </div>
         <div class="line-lettre">
             <img src="../public/illustrations_site/yellow-check.png" alt="">
-            <p>Livraison du CV au format Word et PDF. Possibilité de faire des allers-retours avec votre consultant jusqu’à ce que vous validiez la prestation.</p>
+            <p><span class="key-words">Livraison du CV au format Word et PDF</span>. Possibilité de faire des allers-retours avec votre consultant jusqu’à ce que vous validiez la prestation.</p>
         </div>
     </div>
     <div class="img-lettre">
