@@ -1,7 +1,7 @@
 
 // changer la couleur de la nav sur les pages blanches
 
-if (window.location.href == "http://localhost/cvotreavenirMVC/starter/afficher" || window.location.href == "http://localhost/cvotreavenirMVC/pro/afficher" || window.location.href == "http://localhost/cvotreavenirMVC/CV/afficher" || window.location.href == "http://localhost/cvotreavenirMVC/cvImportant/afficher") {
+if (window.location.href == "http://localhost/cvotreavenirMVC/starter/afficher" || window.location.href == "http://localhost/cvotreavenirMVC/pro/afficher" || window.location.href == "http://localhost/cvotreavenirMVC/CV/afficher" || window.location.href == "http://localhost/cvotreavenirMVC/cvImportant/afficher" || window.location.href == "http://localhost/cvotreavenirMVC/post/afficher") {
   document.body.style.backgroundColor = "white";
   document.body.style.color = "#0b1c3d";
 
