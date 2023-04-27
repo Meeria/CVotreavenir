@@ -1256,3 +1256,10 @@ nav a:hover {
 /*----------Page PostLinkedIn-----------*/
 /*--------------------------------------*/
 /*--------------------------------------*/
+
+.title-page-post {
+    text-align: center;
+    font-size: 4.5em;
+    margin-top: 80px;
+    text-shadow: hsl(0, 0%, 40%) 2px 0 10px;
+}
