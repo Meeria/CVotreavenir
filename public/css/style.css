@@ -1263,3 +1263,21 @@ nav a:hover {
     margin-top: 80px;
     text-shadow: hsl(0, 0%, 40%) 2px 0 10px;
 }
+
+/*--------------------------------------*/
+/*--------------------------------------*/
+/*-------Page LinkedinImportant---------*/
+/*--------------------------------------*/
+/*--------------------------------------*/
+
+.container-profilImportant {
+    margin-bottom: 5%;
+}
+
+.title-profilImportant {
+    text-align: center;
+    font-size: 3.5em;
+    margin-top: 80px;
+    margin-bottom: 70px;
+    text-shadow: hsl(0, 0%, 70%) 2px 0 10px;
+}
