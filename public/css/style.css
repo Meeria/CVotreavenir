@@ -1271,7 +1271,7 @@ nav a:hover {
 /*--------------------------------------*/
 
 .container-profilImportant {
-    margin-bottom: 5%;
+    display: flex;
 }
 
 .title-profilImportant {
@@ -1280,4 +1280,20 @@ nav a:hover {
     margin-top: 80px;
     margin-bottom: 70px;
     text-shadow: hsl(0, 0%, 70%) 2px 0 10px;
+}
+
+.img-profilImportant {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.img-profilImportant img {
+    height: 8em;
+    width: auto;
+}
+
+.line-profilImportant {
+    display: flex;
+    align-items: last baseline;
 }

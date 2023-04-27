@@ -34,5 +34,45 @@ include("inc/header.php");
 <!-- linkedin Important -->
 <h1 class="title-profilImportant">L'IMPORTANCE DE VOTRE <span class="pink-words">PROFIL LINKEDIN</span></h1>
 
+<div class="container-profilImportant">
+
+    <div class="img-profilImportant">
+        <img src="../public/illustrations_site/parleur.png" alt="">
+        <img src="../public/illustrations_site/girlDev.png" alt="">
+        <img src="../public/illustrations_site/profil.png" alt="">
+    </div>
+    <div class="container-text-profilImportant">
+        <div class="line-profilImportant">
+            <p class="check">✔️</p>
+            <p class="text-profilImportant">CVotreavenir vous évitera</p>
+        </div>
+        <div class="line-profilImportant">
+            <p class="check">✔️</p>
+            <p class="text-profilImportant">CVotreavenir vous évitera</p>
+        </div>
+        <div class="line-profilImportant">
+            <p class="check">✔️</p>
+            <p class="text-profilImportant">CVotreavenir vous évitera</p>
+        </div>
+        <div class="line-profilImportant">
+            <p class="check">✔️</p>
+            <p class="text-profilImportant">CVotreavenir vous évitera</p>
+        </div>
+        <div class="line-profilImportant">
+            <p class="check">✔️</p>
+            <p class="text-profilImportant">CVotreavenir vous évitera</p>
+        </div>
+        <div class="line-profilImportant">
+            <p class="check">✔️</p>
+            <p class="text-profilImportant">CVotreavenir vous évitera</p>
+        </div>
+        <div class="line-profilImportant">
+            <p class="check">✔️</p>
+            <p class="text-profilImportant">CVotreavenir vous évitera</p>
+        </div>
+    
+</div>
+
+
 
 <?php include("inc/footer.php"); ?>
