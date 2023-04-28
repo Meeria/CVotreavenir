@@ -60,9 +60,11 @@ nav {
 nav a {
     text-decoration: none;
     color: #0b1c3d;
-    padding: 17px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    margin-right: 25px;
     font-weight: 500;
-    transition: 0.4s;
+    position: relative;
 }
 
 .logo img {
@@ -75,8 +77,20 @@ nav a {
     left: 20px;
 }
 
-nav a:hover {
-    scale: 1.1;
+nav a:after {
+    content: '';
+    height: 2px;
+    width: 0px;
+    background-color: #0b1c3d;
+    position: absolute;
+    bottom: 7px;
+    right: 0;
+    transition: 0.3s width ease-in-out;
+}
+
+nav a:hover:after {
+    width: 100%;
+    left: 0;
 }
 
 
