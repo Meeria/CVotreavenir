@@ -44,33 +44,33 @@ include("inc/header.php");
     <div class="container-text-profilImportant">
         <div class="line-profilImportant">
             <p class="check">✔️</p>
-            <p class="text-profilImportant">CVotreavenir vous évitera</p>
+            <p class="text-profilImportant">L’accès à des milliers d’offres d’emploi</p>
         </div>
         <div class="line-profilImportant">
             <p class="check">✔️</p>
-            <p class="text-profilImportant">CVotreavenir vous évitera</p>
+            <p class="text-profilImportant">L’opportunité de développer votre marque personnelle</p>
         </div>
         <div class="line-profilImportant">
             <p class="check">✔️</p>
-            <p class="text-profilImportant">CVotreavenir vous évitera</p>
+            <p class="text-profilImportant">Un excellent moyen d’être bien référencé(e) sur Google</p>
         </div>
         <div class="line-profilImportant">
             <p class="check">✔️</p>
-            <p class="text-profilImportant">CVotreavenir vous évitera</p>
+            <p class="text-profilImportant">La possibilité d’être repéré(e) et de se faire chasser par des recruteurs</p>
         </div>
         <div class="line-profilImportant">
             <p class="check">✔️</p>
-            <p class="text-profilImportant">CVotreavenir vous évitera</p>
+            <p class="text-profilImportant">Il rassurera un recruteur sur vos capacités à entretenir un réseau</p>
         </div>
         <div class="line-profilImportant">
             <p class="check">✔️</p>
-            <p class="text-profilImportant">CVotreavenir vous évitera</p>
+            <p class="text-profilImportant">LinkedIn permet de connaître votre future entreprise et vos futurs collègues</p>
         </div>
         <div class="line-profilImportant">
             <p class="check">✔️</p>
-            <p class="text-profilImportant">CVotreavenir vous évitera</p>
+            <p class="text-profilImportant">Ce réseau en ligne vous permettra de constituer votre réseau professionnel</p>
         </div>
-    
+    </div>
 </div>
 
 

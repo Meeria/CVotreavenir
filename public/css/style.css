@@ -1272,28 +1272,38 @@ nav a:hover {
 
 .container-profilImportant {
     display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
 }
 
 .title-profilImportant {
     text-align: center;
     font-size: 3.5em;
     margin-top: 80px;
-    margin-bottom: 70px;
+    margin-bottom: 50px;
     text-shadow: hsl(0, 0%, 70%) 2px 0 10px;
 }
 
 .img-profilImportant {
     display: flex;
     flex-direction: column;
-    width: 30%;
+    gap: 60px;
 }
 
 .img-profilImportant img {
+    margin: 10px 30px 10px 30px;
     height: 8em;
-    width: auto;
+    width: autos;
 }
 
 .line-profilImportant {
+    padding: 20px 0 10px 30px;
+    font-size: 1.5em;
     display: flex;
     align-items: last baseline;
+}
+
+.line-profilImportant .check {
+    font-size: 1.5em;
+    margin-right: 20px;
 }
