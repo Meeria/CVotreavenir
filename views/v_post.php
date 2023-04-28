@@ -30,4 +30,46 @@ include("inc/header.php");
 </div>
 <div class="btn-price-starter"><a href="<?= \router\url('services','afficher') ?>"><button>4,99€</button></a></div>
 
+<!-- linkedin Important -->
+<h1 class="title-profilImportant">L'IMPORTANCE DE VOTRE <span class="pink-words">PROFIL LINKEDIN</span></h1>
+
+<div class="container-profilImportant">
+
+    <div class="img-profilImportant">
+        <img src="../public/illustrations_site/parleur.png" alt="">
+        <img src="../public/illustrations_site/girlDev.png" alt="">
+        <img src="../public/illustrations_site/profil.png" alt="">
+    </div>
+    <div class="container-text-profilImportant">
+        <div class="line-profilImportant">
+            <p class="check">✔️</p>
+            <p class="text-profilImportant">L’accès à des milliers d’offres d’emploi</p>
+        </div>
+        <div class="line-profilImportant">
+            <p class="check">✔️</p>
+            <p class="text-profilImportant">L’opportunité de développer votre marque personnelle</p>
+        </div>
+        <div class="line-profilImportant">
+            <p class="check">✔️</p>
+            <p class="text-profilImportant">Un excellent moyen d’être bien référencé(e) sur Google</p>
+        </div>
+        <div class="line-profilImportant">
+            <p class="check">✔️</p>
+            <p class="text-profilImportant">La possibilité d’être repéré(e) et de se faire chasser par des recruteurs</p>
+        </div>
+        <div class="line-profilImportant">
+            <p class="check">✔️</p>
+            <p class="text-profilImportant">Il rassurera un recruteur sur vos capacités à entretenir un réseau</p>
+        </div>
+        <div class="line-profilImportant">
+            <p class="check">✔️</p>
+            <p class="text-profilImportant">LinkedIn permet de connaître votre future entreprise et vos futurs collègues</p>
+        </div>
+        <div class="line-profilImportant">
+            <p class="check">✔️</p>
+            <p class="text-profilImportant">Ce réseau en ligne vous permettra de constituer votre réseau professionnel</p>
+        </div>
+    </div>
+</div>
+
 <?php include("inc/footer.php"); ?>
