@@ -23,3 +23,4 @@
             <a href="<?= \router\url('contact','afficher') ?>">Contact</a>      
     </nav>
 <body>
+<a href="#" id="scroll-to-top"><i class="fa fa-chevron-up"></i></a>

@@ -25,10 +25,19 @@ window.onscroll = function() {
     document.querySelector("nav").style.top = "-100px"; /* ajoutez la hauteur de votre nav ici */
   }
   prevScrollpos = currentScrollPos;
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    document.getElementById("scroll-to-top").style.display = "block";
+} else {
+    document.getElementById("scroll-to-top").style.display = "none";
+}
 }
 
 
+//animation home
 ScrollReveal().reveal('.container-section2', { duration: 1300, origin:"left", distance:"1700px", opacity:1, reset:false});
 ScrollReveal().reveal('.container-section3', { duration: 1300, origin:"right", distance:"1700px", opacity:1, reset:false});
 ScrollReveal().reveal('.container-section4', { duration: 1300, origin:"left", distance:"1700px", opacity:1, reset:false});
 ScrollReveal().reveal('.services', { duration: 1300, origin:"left", distance:"1700px", opacity:1, reset:false});
+
+
+
