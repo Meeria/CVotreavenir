@@ -111,7 +111,7 @@ nav a:hover:after {
 
 .ligne-title h1 {
     font-size: 5vw;
-    margin: 60px 0px 20px 30px;
+    margin: 80px 0px 20px 30px;
 }
 
 .ligne-title p {
@@ -504,7 +504,32 @@ nav a:hover:after {
     scale: 1.1;
 }
 
+@media screen and (max-width: 1000px) {
+    .text-homeServices .btn-services {
+        display: block;
+        text-align: center;
+        margin-top: 15%;
+    }
 
+    .btn-services div {
+        margin-top: 30%;
+        scale: 2;
+    }
+
+    .img-homeServices img {
+        display: none;
+    }
+
+    .page-homeServices {
+        display: block;
+
+    }
+
+    .text-homeServices h1 {
+        font-size: 15vw;
+        text-align: center;
+    }
+}
 
 
 /*--------------------------------------*/
@@ -1198,7 +1223,7 @@ nav a:hover:after {
     width: 50%;
     margin: auto;
     font-size: 3.2em;
-    margin-top: 80px;
+    margin-top: 150px;
     text-shadow: hsl(0, 0%, 40%) 2px 0 10px;
 }
 
@@ -1206,7 +1231,7 @@ nav a:hover:after {
     display: flex;
     align-items: center;
     font-size: larger;
-    margin: 2% 8% 5% 8%;
+    margin: 2% 8% 8% 8%;
 }
 
 .img-lettreImporatant img {
