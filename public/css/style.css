@@ -722,12 +722,22 @@ nav a:hover:after {
     scale: 1.1;
 }
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 1025px) {
     .container-formules {
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
+    }
+
+    .price-pro,
+    .price-premium,
+    .price-starter {
+        display: none;
+    }
+
+    .starter li {
+        list-style-type: none;
     }
 
     .starter,
@@ -856,7 +866,7 @@ nav a:hover:after {
     }
 
     .text-starter {
-        width: 70%;
+        width: 100%;
         margin: auto;
     }
 
@@ -873,6 +883,15 @@ nav a:hover:after {
     .text-starter h2 {
         margin-top: 5%;
     }
+
+    .line-cv {
+        flex-direction: column;
+    }
+
+    .check {
+        display: none;
+    }
+
 }
 
 /*--------------------------------------*/
@@ -953,6 +972,7 @@ nav a:hover:after {
         margin-top: 40px;
         text-align: center;
     }
+
 }
 
 
@@ -1188,6 +1208,8 @@ nav a:hover:after {
 }
 
 @media screen and (max-width: 1200px) {
+
+
     .img-lettre {
         display: none;
     }
@@ -1290,7 +1312,7 @@ nav a:hover:after {
     }
 
     .text-lettreImporatant {
-        width: 70%;
+        width: 100%;
         margin: auto;
     }
 
@@ -1306,6 +1328,11 @@ nav a:hover:after {
 
     .text-lettreImporatant h2 {
         margin-top: 5%;
+    }
+
+    .title-page-lettreImporatant {
+        font-size: 2.5em;
+        width: 100%;
     }
 }
 
