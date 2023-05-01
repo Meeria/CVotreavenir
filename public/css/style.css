@@ -504,15 +504,19 @@ nav a:hover:after {
     scale: 1.1;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 900px) {
+    .page-homeServices {
+        margin-top: 90px;
+    }
+
     .text-homeServices .btn-services {
         display: block;
         text-align: center;
-        margin-top: 15%;
+        margin-top: 10%;
     }
 
     .btn-services div {
-        margin-top: 30%;
+        margin-top: 15vh;
         scale: 2;
     }
 
@@ -526,8 +530,9 @@ nav a:hover:after {
     }
 
     .text-homeServices h1 {
-        font-size: 15vw;
+        width: 100%;
         text-align: center;
+        font-size: 15vw;
     }
 }
 
@@ -1391,4 +1396,15 @@ nav a:hover:after {
 .line-profilImportant .check {
     font-size: 1.5em;
     margin-right: 20px;
+}
+
+@media screen and (max-width: 1200px) {
+
+    .img-profilImportant img {
+        display: none;
+    }
+
+    .line-profilImportant p {
+        text-align: center;
+    }
 }
