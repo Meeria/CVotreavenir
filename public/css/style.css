@@ -1421,7 +1421,7 @@ nav a:hover:after {
     margin: auto;
     font-size: 2em;
     margin-top: 80px;
-    text-shadow: hsl(0, 0%, 40%) 2px 0 10px;
+    text-shadow: hsl(0, 0%, 60%) 2px 0 10px;
 }
 
 .soustitre-entreprise {
