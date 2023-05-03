@@ -1408,3 +1408,58 @@ nav a:hover:after {
         text-align: center;
     }
 }
+
+/*--------------------------------------*/
+/*--------------------------------------*/
+/*-------Page ContactEntreprise---------*/
+/*--------------------------------------*/
+/*--------------------------------------*/
+
+.title-entreprise {
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    font-size: 2em;
+    margin-top: 80px;
+    text-shadow: hsl(0, 0%, 40%) 2px 0 10px;
+}
+
+.soustitre-entreprise {
+    text-align: center;
+    margin: auto;
+    width: 80%;
+    font-size: 1.5em;
+    margin-top: 40px;
+}
+
+.corps-entreprise {
+    display: flex;
+    margin-top: 60px;
+}
+
+.texte-entreprise {
+    margin: 3% 10% 0 10%;
+    font-weight: 500;
+}
+
+.texte-entreprise h3 {
+    font-size: 1.5em;
+    margin-bottom: 40px;
+}
+
+.line-entreprise {
+    display: flex;
+    align-items: center;
+    font-size: 1.5em;
+    margin-top: 25px;
+}
+
+.line-entreprise img {
+    height: 2em;
+    width: auto;
+}
+
+.texte-entreprise p {
+
+    margin-left: 30px;
+}
